@@ -1,5 +1,6 @@
 import pytest
 
+
 from painter.model import Circle, Point, Rectangle, Triangle
 
 

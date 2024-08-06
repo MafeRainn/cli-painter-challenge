@@ -43,7 +43,7 @@ class Triangle:
         return f"Triangle with vertices at ({self.point_1.x}, {self.point_1.y}), ({self.point_2.x}, {self.point_2.y}) and ({self.point_3.x}, {self.point_3.y})"
     
 class Rectangle:
-    def __init__(self, point_1:Point, point_2:Point )
+    def __init__(self, point_1:Point, point_2:Point ) ->None:
         self.point_1=point_1
         self.point_2=point_2
     
